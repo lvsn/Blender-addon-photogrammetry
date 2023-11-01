@@ -33,6 +33,7 @@ Requires laspy for parsing. 5 Requires lazrs for parsing.
 
 ___
 # Installation
+Download photogrammetry_importer.zip
 
 ### Install the addon by
 - Opening the preferences of Blender (Edit / Preferences ...)
