@@ -63,7 +63,7 @@ ___
 ### General
 In Blender use File/Import/<Import Function> to import the corresponding file.
 
-![import](images/import.png)
+![import](images/import.jpg)
 
 For each camera one can add the corresponding image plane. Pillow is required to read the images from disc. Use the import dialog to adjust the image path. By default the addon searches for the images in the folder where the reconstruction file is located. This addon uses the node system of Cycles to visualize the image planes. Thus, the addon switches automatically to Cycles, if image planes are added.
 
@@ -94,13 +94,13 @@ ___
 
 3. Scale the objects, i.e. press s and move the mouse or press s and enter the scaling factor.
 
-![scaled_cameras](images/scaled_cameras.png)
+![scaled_cameras](images/scaled_cameras.jpg)
 
 ##Adjust the Scale of **OpenGL Points** Drawn in the 3D View (After Importing)
 
 The size of the points in the OpenGL point cloud can be defined using the panel in the 3D view.
 
-![opengl_panel_visualization](images/opengl_panel_visualization.png)
+![opengl_panel_visualization](images/opengl_panel_visualization.jpg)
 
 ## Adjust the Scale/Shape of Geometry Node Points of a Mesh Object (After Importing)
 
