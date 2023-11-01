@@ -90,7 +90,7 @@ ___
 
 2. Select the individual origins as pivot points, i.e. click in the 3D view on Pivot Point and select Individual Origins.
 
-![individual_origins_as_pivot_point](images/individual_origins_as_pivot_point.png)
+![individual_origins_as_pivot_point](images/individual_origins_as_pivot_point.jpg)
 
 3. Scale the objects, i.e. press s and move the mouse or press s and enter the scaling factor.
 
@@ -100,7 +100,7 @@ ___
 
 The size of the points in the OpenGL point cloud can be defined using the panel in the 3D view.
 
-![opengl_panel_visualization](images/opengl_panel_visualization.jpg)
+![opengl_panel_visualization](images/opengl_panel_visualization.png)
 
 ## Adjust the Scale/Shape of Geometry Node Points of a Mesh Object (After Importing)
 
@@ -124,6 +124,7 @@ Option 2: After computing the Structure from Motion reconstruction perform the f
 ___
 # Extending the Addon
 The addon follows a modular approach to simplify the extensibility of additional libraries. Each supported library requires the implementation of a corresponding FileHandler and ImportOperator - see the figure below. The FileHandler parses library specific file formats or directory structures and returns library agnostic information of cameras, points and meshes. The ImportOperator may use different classes provided by the framework (e.g. CameraImporter, PointImporter and MeshImporter) to define the required import options and to import the reconstruction extracted by the FileHandler.
+
 ![architecture](images/architecture.png)
 ___
 Other topic on the main page
